@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:ailevon/pages/DownloadManager/download_manager_page.dart';
 import 'package:ailevon/pages/Login/login.dart';
 import 'package:ailevon/pages/WebNovelDetails/web_details_page.dart';
-import 'package:ailevon/pages/WenkuNovelDetalis/wenku_details_page.dart';
+import 'package:ailevon/pages/WenkuNovelDetails/wenku_details_page.dart';
 import 'package:ailevon/pages/WenkuSearch/wenkupage.dart';
 import 'package:ailevon/pages/main_page.dart';
 import 'package:ailevon/pages/WebSearch/webpage.dart';

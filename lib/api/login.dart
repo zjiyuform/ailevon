@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:ailevon/stores/token_manager.dart';
-import 'package:ailevon/utils/dio_reqeust.dart';
+import 'package:ailevon/utils/dio_request.dart';
 import 'package:ailevon/viewmodels/user.dart';
 
 Future<UserInfo> loginAPI(Map<String, dynamic> data) async {

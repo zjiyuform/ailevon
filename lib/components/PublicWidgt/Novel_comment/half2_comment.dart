@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ailevon/api/comment_api.dart';
 import 'package:ailevon/utils/widget/loading_widght.dart';
 import 'package:ailevon/utils/widget/toast_utils.dart';
-import 'package:ailevon/components/PublicWidgt/Novel_comment/coment_item.dart';
+import 'package:ailevon/components/PublicWidgt/Novel_comment/comment_item.dart';
 import 'package:ailevon/viewmodels/comment.dart';
 
 class Half2Comment extends StatefulWidget {

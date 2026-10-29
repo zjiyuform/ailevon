@@ -1,5 +1,5 @@
 import 'package:ailevon/constants/constants.dart';
-import 'package:ailevon/utils/dio_reqeust.dart';
+import 'package:ailevon/utils/dio_request.dart';
 import 'package:ailevon/viewmodels/wenku.dart';
 import 'package:ailevon/viewmodels/web.dart';
 

@@ -9,7 +9,7 @@ import 'package:ailevon/stores/chapter_options_controller.dart';
 import 'package:ailevon/stores/read_position_controller.dart';
 import 'package:ailevon/stores/read_settings_controller.dart';
 import 'package:ailevon/stores/user_controller.dart';
-import 'package:ailevon/utils/dio_reqeust.dart';
+import 'package:ailevon/utils/dio_request.dart';
 import 'package:ailevon/utils/widget/loading_widght.dart';
 import 'package:ailevon/utils/widget/toast_utils.dart';
 import 'package:ailevon/viewmodels/webread.dart';

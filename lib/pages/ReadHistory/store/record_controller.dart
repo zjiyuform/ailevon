@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:ailevon/constants/constants.dart';
-import 'package:ailevon/utils/dio_reqeust.dart';
+import 'package:ailevon/utils/dio_request.dart';
 
 class RecordController extends GetxController {
   var isPaused = false.obs;

@@ -1,6 +1,6 @@
 // 封装一个api 目的是返回业务侧要的数据结构
 import 'package:ailevon/constants/constants.dart';
-import 'package:ailevon/utils/dio_reqeust.dart';
+import 'package:ailevon/utils/dio_request.dart';
 // import 'package:ailevon/viewmodels/home.dart';
 import 'package:ailevon/viewmodels/web.dart';
 import 'package:ailevon/viewmodels/wenku.dart';

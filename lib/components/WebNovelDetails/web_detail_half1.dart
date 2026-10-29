@@ -5,7 +5,7 @@ import 'package:ailevon/constants/constants.dart';
 import 'package:ailevon/pages/WebRead/novel_reader_page.dart';
 import 'package:ailevon/stores/user_controller.dart';
 import 'package:ailevon/stores/web_download_controller.dart';
-import 'package:ailevon/utils/dio_reqeust.dart';
+import 'package:ailevon/utils/dio_request.dart';
 import 'package:ailevon/utils/widget/settingwebdownload_dialog.dart';
 import 'package:ailevon/utils/widget/download_dialog.dart';
 import 'package:ailevon/utils/widget/toast_utils.dart';

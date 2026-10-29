@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ailevon/components/WebNovel/webFilter/filter_search.dart';
 import 'package:ailevon/components/WebNovel/webFilter/filter_single.dart';
-import 'package:ailevon/components/WebNovel/webFilter/fliter_multiple.dart';
+import 'package:ailevon/components/WebNovel/webFilter/filter_multiple.dart';
 import 'package:ailevon/stores/user_controller.dart';
 
 class WebFilter extends StatefulWidget {

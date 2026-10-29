@@ -1,7 +1,7 @@
 import 'package:ailevon/utils/widget/loading_widght.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ailevon/api/read_history.api.dart';
+import 'package:ailevon/api/read_history_api.dart';
 import 'package:ailevon/components/ReadHistory/web_read_history.dart';
 import 'package:ailevon/pages/ReadHistory/store/record_controller.dart';
 import 'package:ailevon/stores/user_controller.dart';

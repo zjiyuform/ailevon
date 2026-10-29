@@ -8,7 +8,7 @@ import 'package:ailevon/components/WenkuNovelDetails/wenku_half2_introduction.da
 import 'package:ailevon/constants/constants.dart';
 import 'package:ailevon/components/WenkuNovelDetails/wenku_detail_half1.dart';
 import 'package:ailevon/stores/theme_controller.dart';
-import 'package:ailevon/utils/dio_reqeust.dart';
+import 'package:ailevon/utils/dio_request.dart';
 import 'package:ailevon/utils/widget/loading_widght.dart';
 import 'package:ailevon/utils/widget/toast_utils.dart';
 import 'package:ailevon/viewmodels/wenkudetails.dart';

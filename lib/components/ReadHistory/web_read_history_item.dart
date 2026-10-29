@@ -1,7 +1,7 @@
 // 独立的列表项组件，管理自己的删除加载状态
 import 'package:flutter/material.dart';
 import 'package:ailevon/constants/constants.dart';
-import 'package:ailevon/utils/dio_reqeust.dart';
+import 'package:ailevon/utils/dio_request.dart';
 import 'package:ailevon/utils/widget/toast_utils.dart';
 import 'package:ailevon/utils/Function/updatetime.dart';
 import 'package:ailevon/viewmodels/web.dart';
@@ -66,7 +66,7 @@ class _WebReadHistoryItemState extends State<WebReadHistoryItem> {
             ),
           ),
           Text(
-            "${widget.item.type} / 总计 ${widget.item.total} / 百度 ${widget.item.baidu} / 有道 ${widget.item.youdao} / GPT ${widget.item.gpt} / sukura ${widget.item.sakura}",
+            "${widget.item.type} / s总计 ${widget.item.total} / 百度 ${widget.item.baidu} / 有道 ${widget.item.youdao} / GPT ${widget.item.gpt} / sukura ${widget.item.sakura}",
           ),
           Text(
             "绿站更新于${formatTimeAgo(widget.item.updateAt)} / ${widget.item.lastReadAt != null ? '${formatTimeAgo(widget.item.lastReadAt!)} 看过 /' : ''}",

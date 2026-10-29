@@ -1,6 +1,6 @@
 // 封装wenku小说请求API
 import 'package:ailevon/constants/constants.dart';
-import 'package:ailevon/utils/dio_reqeust.dart';
+import 'package:ailevon/utils/dio_request.dart';
 import 'package:ailevon/viewmodels/wenku.dart';
 
 // // 含参数的包含items的API(wenku页使用)
