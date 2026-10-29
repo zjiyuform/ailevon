@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ailevon/pages/webSearch/websearchbody.dart';
+import 'package:ailevon/pages/WebSearch/websearchbody.dart';
 
 class WebSearchPage extends StatefulWidget {
   const WebSearchPage({super.key});

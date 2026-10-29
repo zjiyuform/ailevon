@@ -26,11 +26,8 @@ class _Half2CommentState extends State<Half2Comment>
     setState(() => _isLoading = true);
     try {
       final comments = await getCommentApi(
-        params: {
-          "page": 0,
-          "pageSize": _pageSize,
-          "site": widget.adress!.join("-"),
-        },
+        params: {"page": 1, "page_size": _pageSize},
+        address: widget.adress!.join("-"),
       );
       setState(() {
         _commentList.addAll(comments);
@@ -47,7 +44,7 @@ class _Half2CommentState extends State<Half2Comment>
     }
   }
 
-  int _page = 1;
+  int _page = 2;
   bool _isGetNewLoading = false;
   bool _hasMore = true;
   List<Comment> _tempList = [];
@@ -58,11 +55,8 @@ class _Half2CommentState extends State<Half2Comment>
 
     try {
       _tempList = await getCommentApi(
-        params: {
-          "page": _page,
-          "pageSize": _pageSize,
-          "site": widget.adress!.join("-"),
-        },
+        params: {"page": _page, "page_size": _pageSize},
+        address: widget.adress!.join("-"),
       );
 
       if (mounted) {

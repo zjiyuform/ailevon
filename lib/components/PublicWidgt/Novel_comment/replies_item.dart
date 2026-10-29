@@ -80,7 +80,7 @@ class _RepliesItemState extends State<RepliesItem> {
                 ),
               const SizedBox(height: 5),
               Text(
-                formatTimeAgo(widget.comment.createAt),
+                formatTimeAgo(widget.comment.createdAt),
                 style: TextStyle(color: Colors.grey[600]),
               ),
             ],

@@ -7,7 +7,7 @@ import 'package:ailevon/pages/WebNovelDetails/web_details_page.dart';
 import 'package:ailevon/pages/WenkuNovelDetalis/wenku_details_page.dart';
 import 'package:ailevon/pages/WenkuSearch/wenkupage.dart';
 import 'package:ailevon/pages/main_page.dart';
-import 'package:ailevon/pages/webSearch/webpage.dart';
+import 'package:ailevon/pages/WebSearch/webpage.dart';
 import 'package:ailevon/stores/theme_controller.dart';
 
 // 获取主题控制器

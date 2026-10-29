@@ -1,7 +1,7 @@
 /// 格式化时间差，返回类似 "刚刚"、"5分钟前"、"2小时前" 等
 String formatTimeAgo(int secondsSinceEpoch) {
   final now = DateTime.now();
-  final target = DateTime.fromMillisecondsSinceEpoch(secondsSinceEpoch * 1000);
+  final target = DateTime.fromMillisecondsSinceEpoch(secondsSinceEpoch);
 
   // 只比较日期部分（忽略时分秒）
   final nowDate = DateTime(now.year, now.month, now.day);

@@ -1,6 +1,7 @@
 // 基于Dio进行二次封装
 import 'dart:io';
 
+import 'package:ailevon/utils/base_url_interceptor.dart';
 import 'package:dio/dio.dart';
 import 'package:jwt_decoder/jwt_decoder.dart';
 import 'package:path_provider/path_provider.dart';
@@ -25,6 +26,10 @@ class DioRequest {
 
   // 2 添加拦截器
   void _addInterceptor() {
+    // 1. baseUrl 覆盖拦截器 —— 先加，onRequest 里先执行
+    _dio.interceptors.add(BaseUrlInterceptor());
+
+    // 2. token / 状态码拦截器
     _dio.interceptors.add(
       InterceptorsWrapper(
         // 请求拦截

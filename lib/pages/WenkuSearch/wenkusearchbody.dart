@@ -26,14 +26,14 @@ class _WenkuSearchBodyState extends State<WenkuSearchBody> {
     "level": 0,
   };
 
-  // 供父组件调用的参数更新方法
+  // 调用的参数更新方法
   void updateParams(Map<String, dynamic> newParams) {
     setState(() {
       _totalParams.addAll(newParams);
     });
   }
 
-  // 供父组件调用的数据加载方法
+  //  重置/筛选数据加载方法
   Future<void> loadWebData() async {
     // if (_isLoading) return;
     setState(() => _isLoading = true);
